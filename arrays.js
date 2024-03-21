@@ -35,12 +35,12 @@ console.log({find});
 
 //Write a JS script to sort the following string:let word = "renniw"
 let word = "renniw"
-function reversed(word){
+function alter(word){
    var newStr = "";
    for (var m = word.length - 1; m >= 0; m--){
        newStr += word[m];
    }
    return newStr;
 }
-console.log(reversed(word));
+console.log(alter(word));
 
